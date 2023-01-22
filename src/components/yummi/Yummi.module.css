@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(6, 6, 59, 0.753);
+    overflow: hidden;
+}
+
+
+.string{
+     text-align: center;
+     -webkit-text-stroke: 0.3vw rgba(10, 10, 136, 0.753);
+     text-transform: uppercase;
+}
