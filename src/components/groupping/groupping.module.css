@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.container div{
+    float: left;
+   margin: 3px 43px;
+   border-radius: 6px;
+    border: 2px solid rgb(51, 49, 49);
+
+}
+.container div:hover{
+    box-shadow: 0 0 8px white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}

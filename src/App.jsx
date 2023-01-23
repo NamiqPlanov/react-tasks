@@ -6,13 +6,14 @@ import Webpage from "./components/webpageContent";
 import Login from "./components/Login/Login";
 import { useState } from "react";
 import Yummi from "./components/yummi/Yummi";
+import Groupping from "./components/groupping/groupping";
 
 
 function App(){
-  const[show,setshow] = useState(false)
+  
   return(
     <div>
-      <Yummi/>
+      <Groupping/>
     </div>
       
   );
