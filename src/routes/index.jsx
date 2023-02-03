@@ -33,7 +33,7 @@ const WebsiteRouting = ()=>{
         <Route path="/"  element={<Home />} />
         <Route path="/about"  element={<About />} />
         <Route path="/contact"  element={<Contact />} />
-        <Route path="/starwarsinfo"  element={<StarwarsInfo />} />
+        <Route path="/starwarsinfo/:peopleId"  element={<StarwarsInfo />} />
         <Route path="/showdata"  element={<Showdata />} />
         <Route path="*"  element={<NotFound />} />
         <Route path="/starwarswithreducer"  element={<StarwarswithReducer />} />
