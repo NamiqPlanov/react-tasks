@@ -1,5 +1,14 @@
 
+body{
+    background-color: aliceblue;
+}
 
-
+.darkmode, .darkmode *{
+     background-color: black !important;
+     color: white !important;
+}
+.nav *{
+    border: 2px solid red;
+}
 
 

@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(207, 201, 201);
 }
 .container div{
     float: left;
@@ -9,13 +9,14 @@ body{
 
 }
 .container div:hover{
-    box-shadow: 0 0 8px white;
+    box-shadow: 0 0 8px rgb(19, 18, 18);
+    cursor: pointer;
 }
 h2{
     text-align: center;
-    color: white;
+    color: rgb(17, 16, 16);
 }
 p{
     text-align: center;
-    color: white;
+    color: rgb(5, 5, 5);
 }

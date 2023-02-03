@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useEffect } from 'react'
 import { useState, useTransition } from 'react'
+import { NavLink } from 'react-router-dom'
 import styles from './Yummi.module.css'
 const url = "https://www.themealdb.com/api/json/v1/1/random.php "
 
@@ -33,7 +34,21 @@ useEffect( ()=>{
         <p>Ingradients: {meal.strIngredient2}</p>
         <p>Ingradients: {meal.strIngredient3}</p>
         <p>Ingradients: {meal.strIngredient4}</p>
-        <a  target='_blank' href={`${meal.strYoutube}`}>Video for cooking this meal</a>
+        <a style={{
+            textDecoration:'none',
+            border: '2px solid red',
+            backgroundColor: 'red',
+            color:'white'
+
+        }} target='_blank' href={`${meal.strYoutube}`}>Video for cooking this meal</a>
+        <NavLink style={{
+            padding: '0 10px',
+            margin: '0 10px',
+            border: '2px solid red',
+            backgroundColor: 'red',
+            color:'white',
+            textDecoration: 'none'
+        }} to='/'>go home</NavLink>
         </div>
         }
         
